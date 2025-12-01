@@ -69,7 +69,7 @@ class LSTM(nn.Module):
 # --- TITLE & SIDEBAR ---
 st.title("💰 Finance & Economics Time-Series Analysis")
 st.markdown("""
-**Project Goal:** Analyze the complex relationship between macroeconomic indicators (GDP, Inflation, Unemployment) 
+**Project Goal:** Analyzing the complex relationship between macroeconomic indicators (GDP, Inflation, Unemployment) 
 and the US Stock Market (S&P 500) from 2000-2008 to forecast future trends.
 """)
 
@@ -742,7 +742,7 @@ if df_cleaned is not None:
         st.pyplot(fig)
         st.info("**Graph Interpretation:** This simulation shows how news sentiment (purple line) fluctuates around a neutral baseline (grey dashed line). Sharp drops in sentiment clearly precede or coincide with market volatility, validating the potential of NLP for early warning systems.")
         
-        with st.expander("ℹ️ How it Works (Educational)"):
+        with st.expander("ℹ How it Works "):
             st.markdown("""
             **1. Data Source (Ingestion):** In a live environment, we would use an API (like Bloomberg or Twitter/X) to scrape thousands of financial headlines daily.
             
