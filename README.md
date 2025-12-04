@@ -14,7 +14,7 @@ The project combines **classical time-series models (ARIMA, VAR)** with **deep l
   - pip install -r requirements.txt
   
 **Run the Dashboard:**
-  - streamlit run finance_app.py
+  - streamlit run finance_app_final.py
 
 ## Project Overview
 
