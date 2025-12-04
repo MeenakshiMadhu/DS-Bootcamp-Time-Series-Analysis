@@ -6,7 +6,17 @@ The project combines **classical time-series models (ARIMA, VAR)** with **deep l
 
 ---
 
-## 📂 Project Overview
+### Instructions to run the project:
+
+(Recommended) Use a virtual environment to run the project.
+
+**Install the Libraries:**
+  - pip install -r requirements.txt
+  
+**Run the Dashboard:**
+  - streamlit run finance_app.py
+
+## Project Overview
 
 **Problem Statement**
 
@@ -22,7 +32,7 @@ The goal of this project is to:
 
 ---
 
-## 🧾 Dataset
+## Dataset
 
 **Name:** `Finance & Economics Dataset`  
 **Granularity:** Daily data (2000–2008)  
@@ -39,9 +49,12 @@ Includes:
   - Consumer Confidence Index
 - Additional derived/engineered features (moving averages, lagged variables, RSI, etc.) are created in the project.
 
+**Name:** `US Recession Dataset`
+**Granularity:** 1990-04 to 2022-10
+
 ---
 
-## 🧠 What This Project Implements
+## What This Project Implements
 
 ### 1. Dataset Exploration & Cleaning
 - Filter raw dataset to focus on **S&P 500** only (removes mixed index noise).
@@ -107,9 +120,9 @@ Includes:
 
 ---
 
-## 🖥️ Interactive Dashboard Structure
+## Interactive Dashboard Structure
 
-The Streamlit app (`finance_app.py`) is organized into the following pages:
+The Streamlit app (`finance_app_final.py`) is organized into the following pages:
 
 1. **Dataset & Cleaning**
    - Preview of cleaned S&P 500 + macro dataset.
